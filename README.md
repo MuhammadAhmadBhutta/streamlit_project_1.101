@@ -1,4 +1,4 @@
-# 🤖 AI Chatbot App Collection – by Muhammad Ahmad Bhutta
+# 🤖 AI Chatbot App Collection or Data Science Apps – by Muhammad Ahmad Bhutta
 
 This repository contains a **collection of AI-powered chatbot applications**, built using **Streamlit**, **Python**, and **Gemini 2.0 Flash API**. Each app provides a modern and interactive user interface for AI conversations. I also create the apps for **Data Science**
 
