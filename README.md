@@ -28,7 +28,36 @@ A basic chatbot web app powered by **Gemini 2.0 Flash**. Designed to simulate a 
 📁 Folder: `app_01/`  
 📄 Main file: `app.py`
 
-More apps like `app_02`, `app_03`, etc. will be added soon with improved designs and extra features.
+### ✅ `app_02`
+An interactive business analytics and sales prediction web app built with **Streamlit**, **PyCaret**, and **Scikit-learn**. Designed to help users analyze business data, predict sales, and classify product names using AI.
+
+**Core Features:**
+- Business analytics dashboard for exploring and visualizing data
+- Predict sales using a pre-trained **PyCaret** regression model
+- Classify product names using a **Random Forest Classifier** with hyperparameter tuning
+- Evaluate model performance with metrics like **R²**, **Accuracy**, **Precision**, **Recall**, and **F1 Score**
+- User-friendly Streamlit interface
+
+**Technologies & Libraries Used:**
+- **Streamlit** — for building the web app (`streamlit`)
+- **Pandas** — for data manipulation (`pandas`)
+- **Joblib** — for saving and loading models (`joblib`)
+- **Scikit-learn (sklearn)** — for metrics and additional model training
+- **PyCaret** — for automated machine learning workflows
+
+❌ Not Yet Available:
+- Real-time data connection
+- In-app model retraining
+- User authentication
+- Advanced custom visualizations
+
+📁 Folder: `app_02/`  
+📊 Dataset folder: `datasets/`
+📄 Main file: `app.py`  
+📁 Pre-trained models: `pre_training_models/`  
+📦 Saved sales prediction model: `sales_model.pkl`  
+📦 Saved product classification model: `rf_product_classifier.pkl` I not push because it take much more memory(above 2gb).
+More apps like `app_03`, `app_04`, etc. will be added soon with improved designs and extra features.
 
 ---
 
