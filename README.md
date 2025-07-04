@@ -59,7 +59,7 @@ An interactive business analytics and sales prediction web app built with **Stre
 📦 Saved product classification model: `rf_product_classifier.pkl` I not push because it take much more memory(above 2gb).
 More apps like `app_03`, `app_04`, etc. will be added soon with improved designs and extra features.
 
-### ✅ app_03: Stock Market Forecasting App
+### ✅ `app_03`: Stock Market Forecasting App
 
 A robust and interactive **stock price forecasting** web app built with Streamlit, Statsmodels, Plotly, and YFinance. This tool allows users to analyze, visualize, and predict stock market prices with powerful time series models.
 
@@ -94,7 +94,7 @@ A robust and interactive **stock price forecasting** web app built with Streamli
 
 ---
 
-### ✅ app_04: Plotly Dashboard App
+### ✅ `app_04`: Plotly Dashboard App
 
 A lively, animated data visualization dashboard showcasing global GDP and Life Expectancy using Plotly Express and Streamlit. Designed to demonstrate interactive, multi-year insights at a glance.
 
@@ -124,7 +124,7 @@ A lively, animated data visualization dashboard showcasing global GDP and Life E
 
 ---
 
-### ✅ app_05: Global Data Dashboard App
+### ✅ `app_05`: Global Data Dashboard App
 
 A modern, minimalistic Streamlit dashboard to explore global socio-economic data by continent with clear KPIs and comparative charts.
 
