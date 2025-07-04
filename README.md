@@ -57,7 +57,6 @@ An interactive business analytics and sales prediction web app built with **Stre
 📁 Pre-trained models: `pre_training_models/`  
 📦 Saved sales prediction model: `sales_model.pkl`  
 📦 Saved product classification model: `rf_product_classifier.pkl` I not push because it take much more memory(above 2gb).
-More apps like `app_03`, `app_04`, etc. will be added soon with improved designs and extra features.
 
 ### ✅ `app_03`: Stock Market Forecasting App
 
@@ -153,6 +152,7 @@ A modern, minimalistic Streamlit dashboard to explore global socio-economic data
 *Stay tuned for new expansions with richer datasets and real-time data updates!*
 
 ---
+More apps like `app_06`, `app_07`, etc. will be added soon with improved designs and extra features.
 
 ## 🚀 Getting Started
 
