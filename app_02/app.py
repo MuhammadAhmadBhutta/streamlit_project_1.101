@@ -12,8 +12,8 @@ def load_models():
 
 rf_product_classifier, sales_model = load_models()
 
-st.set_page_config(page_title="Business Analyst App", layout="wide")
-st.title("📊 Business Analyst App - Predict Sales & Classify Products")
+st.set_page_config(page_title="Business Analystic App", layout="wide")
+st.title("📊 Business Analystic App - Predict Sales & Classify Products")
 
 if "features" not in st.session_state:
     st.session_state.features = []
