@@ -36,4 +36,3 @@ with col1:
 
 with col2:
     st.plotly_chart(fig2, use_container_width=True)
-h
