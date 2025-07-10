@@ -214,11 +214,103 @@ A polished Streamlit dashboard to explore supermarket sales data with multi-leve
 📄 **Main file:** `app.py`  
 *More visualizations and forecasting tools coming soon!*
 
+---
+
+### ✅ `app_08`: Advanced OpenCV Streamlit App with AI Super-Resolution
+
+A powerful, interactive Streamlit app for image processing using OpenCV — supports webcam capture, advanced filters, transformations, drawing, face detection, and AI-powered upscaling (SD ➜ HD) using EDSR Super-Resolution.
+
+### Core Features:
+- 📷 Upload an image or capture directly from your **webcam**
+- 🎨 Apply filters: **Grayscale**, **Blur**, **Canny Edge Detection**
+- 🔄 Adjust **brightness**, **contrast**, **rotation**, **flip**
+- ✏️ Draw **rectangles**, **add text annotations**
+- 👤 Detect **faces** with Haar cascades
+- 📈 Convert **low-res images to HD** with **AI Super-Resolution**
+- 📥 Download processed images in **PNG** or **JPEG**
+
+### Technologies & Libraries Used:
+- **Streamlit** — interactive web app (`streamlit`)
+- **OpenCV** — image processing (`cv2`)
+- **Pillow** — image handling (`PIL.Image`)
+- **NumPy** — numerical operations (`numpy`)
+
+### ❌ Not Yet Available:
+- Batch image processing
+- Video stream transformations
+- Integration with cloud storage (S3, GCS)
+
+📁 **Folder:** `app_08/`  
+📂 **Model File:** `EDSR_x4.pb` (required for Super-Resolution)  
+📄 **Main file:** `app.py`
+
+---
+
+### ✅ `app_09`: Dynamic Business Opportunity Scanner & Action Planner
+
+An AI-powered Streamlit app for business analysts and managers. Upload your Superstore data, detect low-performing areas, forecast future revenue, and generate actionable plans using **Google Gemini 1.5 Flash**.
+
+### Core Features:
+- 📂 Upload your own Excel data or use built-in **Sample_Superstore.xlsx**
+- 🔍 Automatically **detect profit/loss opportunities**
+- 📈 Forecast future revenue trends with **Prophet**
+- 📊 Interactive **forecast plot** with upper/lower bounds
+- 🤖 Generate **AI action plans** with Google Gemini
+- 📥 Download custom action plans
+
+### Technologies & Libraries Used:
+- **Streamlit** — app framework (`streamlit`)
+- **Pandas** — data manipulation (`pandas`)
+- **Prophet** — time-series forecasting (`prophet`)
+- **Google Generative AI** — action plan generation (`google.generativeai`)
+- **Plotly** — visualizations (`plotly.graph_objects`)
+
+### ❌ Not Yet Available:
+- Multiple dataset uploads
+- Scenario comparison
+- Built-in user authentication
+
+📁 **Folder:** `app_09/`  
+📂 **Dataset Folder:** `data/`  
+📊 **Dataset:** `data/Sample_Superstore.xlsx`  
+📄 **Main file:** `app.py`  
+📄 **Modules:** `modules/forecast.py`, `modules/opportunity.py`, `modules/generator.py`, `modules/utils.py`
+
+---
+
+### ✅ `app_10`: Streamlit Power BI-like Dashboard
+
+A simple yet flexible Streamlit dashboard inspired by Power BI. Upload your data, generate KPI cards, create interactive charts, and customize visuals using an intuitive sidebar.
+
+### Core Features:
+- 📂 Upload **CSV** or **Excel** datasets
+- ⚙️ Configure KPIs dynamically in the sidebar
+- 📊 Create charts: **Bar**, **Line**, **Pie**, **Scatter**
+- 🗂️ Preview raw data instantly
+- 🧩 Group data by categories with color encoding
+- 🖼️ Responsive layout with **Plotly Express**
+
+### Technologies & Libraries Used:
+- **Streamlit** — app framework (`streamlit`)
+- **Pandas** — data manipulation (`pandas`)
+- **Plotly Express** — charts and visuals (`plotly.express`)
+
+### ❌ Not Yet Available:
+- Persistent dashboards
+- User authentication
+- Export dashboards to PDF or PNG
+
+📁 **Folder:** `app_10/`  
+📂 **User Dataset:** `Upload your own!`  
+📄 **Main file:** `app.py`
+
+---
+
 
 *Stay tuned for new expansions with richer datasets and real-time data updates!*
 
 ---
-More apps like `app_08`, `app_09`,`app_10` etc. will be added soon with improved designs and extra features.
+More apps like `app_11`, `app_12`,`app_13` etc. will be added soon with improved designs and extra features.
 
 ## 🚀 Getting Started
 
@@ -277,8 +369,15 @@ Released under the **MIT License** — feel free to use and contribute!
 
 **Muhammad Ahmad Bhutta**  
 Freelance Data Scientist | AI Developer | Open to Work  
+### 🌐 Connect with Me
+
 🔗 [LinkedIn](https://www.linkedin.com/in/ahmad-azhar-518231294/)  
-📺 [YouTube](https://youtube.com/@bhuttageverything)
+🐦 [Twitter](https://x.com/BestThe34569?s=09)  
+📸 [Instagram](https://www.instagram.com/thebestserviceprovider784)  
+📊 [Kaggle](https://www.kaggle.com/muhammadahmadbhutta)  
+📺 [YouTube: Bhutta's Everything](https://youtube.com/@bhuttageverything)  
+📺 [YouTube: Code With Bhutta G](https://www.youtube.com/@CODEWITHBHUTTAG)
+
 
 ---
 
