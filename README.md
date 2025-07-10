@@ -149,10 +149,76 @@ A modern, minimalistic Streamlit dashboard to explore global socio-economic data
 📁 **Folder:** `app_05/`  
 📊 **Dataset:** built-in Gapminder dataset from Plotly Express  
 📄 **Main file:** `app.py`  
+
+### ✅ `app_06`: US Population Migration Dashboard
+
+A modern, interactive Streamlit dashboard to analyze US population trends and migrations by state with maps, heatmaps, donut charts, and animated 3D plots.
+
+### Core Features:
+- Filter data by **year** and **color theme** with sidebar
+- Visualize **inbound & outbound migration** using donut charts
+- Interactive **3D scatter plot**: Year vs Population vs Migration
+- **Bubble choropleth map** for state comparison
+- Detailed **heatmap** of population by state over time
+- Custom **dark theme** and CSS for sleek metrics and layout
+
+### Technologies & Libraries Used:
+- **Streamlit** — app framework (`streamlit`)
+- **Pandas** — data manipulation (`pandas`)
+- **Altair** — heatmaps & donut charts (`altair`)
+- **Plotly Express & Graph Objects** — advanced mapping & 3D (`plotly.express`, `plotly.graph_objects`)
+
+### ❌ Not Yet Available:
+- Downloadable reports or exports
+- Time series forecasting
+- Demographic breakdowns (age, income)
+- User comments or insights
+
+📁 **Folder:** `app_06/`  
+📂 **Dataset Folder:** `datasets/`  
+📊 **Dataset:** `datasets/us-population-2010-2019-reshaped.csv`  
+📄 **Main file:** `app.py`  
+*Stay tuned for enhanced migration insights and real-time data updates!*
+
+
+---
+
+### ✅ `app_07`: Sales Performance Dashboard
+
+A polished Streamlit dashboard to explore supermarket sales data with multi-level charts, dynamic filters, and correlation heatmaps.
+
+### Core Features:
+- Filter by **City**, **Customer Type**, **Gender**, and **Color Theme**
+- **Key KPIs**: Total Sales, Average Rating (with stars), Avg. Sales per Transaction
+- Interactive **Sales by Product Line** bar chart
+- **Hourly Sales Trends**: find peak hours
+- **Sunburst** and **Treemap** charts for hierarchical breakdowns
+- **Correlation Heatmap** for key metrics
+- **Bubble Chart**: Unit Price vs Total Sales sized by Quantity
+- Clean, responsive design for business insights
+
+### Technologies & Libraries Used:
+- **Streamlit** — app framework (`streamlit`)
+- **Pandas** — data processing (`pandas`)
+- **Plotly Express** — charts & maps (`plotly.express`)
+
+### ❌ Not Yet Available:
+- Real geo mapping with live coordinates
+- Multi-year sales comparison
+- Downloadable reports & chart images
+- User login & saved dashboards
+
+📁 **Folder:** `app_07/`  
+📂 **Dataset Folder:** `datasets/`  
+📊 **Dataset:** `datasets/supermarkt_sales.xlsx`  
+📄 **Main file:** `app.py`  
+*More visualizations and forecasting tools coming soon!*
+
+
 *Stay tuned for new expansions with richer datasets and real-time data updates!*
 
 ---
-More apps like `app_06`, `app_07`, etc. will be added soon with improved designs and extra features.
+More apps like `app_08`, `app_09`,`app_10` etc. will be added soon with improved designs and extra features.
 
 ## 🚀 Getting Started
 
